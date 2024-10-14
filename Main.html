@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Chandra Sekhar Singuru, Cloud Engineer and Computer Science Enthusiast.">
+    <title>Chandra Sekhar Singuru | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: #fff;
+            padding: 30px 20px;
+            text-align: center;
+            transition: background 0.5s ease-in-out;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+            font-size: 36px;
+            animation: fadeIn 2s;
+        }
+
+        header p {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        nav {
+            background: #444;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            animation: slideIn 1s;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #f39c12;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+
+        .content {
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .content:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer a {
+            color: white;
+            margin: 0 10px;
+        }
+
+        .icons {
+            margin-top: 15px;
+        }
+
+        .icons a {
+            color: #f39c12;
+            font-size: 24px;
+            margin: 0 10px;
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li {
+                margin-bottom: 10px;
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            0% {
+                transform: translateY(-20px);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        /* Section Colors */
+        #about {
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+        }
+
+        #skills {
+            background: linear-gradient(to right, #43cea2, #185a9d);
+        }
+
+        #experience {
+            background: linear-gradient(to right, #e96443, #904e95);
+        }
+
+        #projects {
+            background: linear-gradient(to right, #11998e, #38ef7d);
+        }
+
+        #certifications {
+            background: linear-gradient(to right, #fc4a1a, #f7b733);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Chandra Sekhar Singuru</h1>
+        <p>Cloud Engineer | Software Developer | Applied Computer Science Graduate Student</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <!-- About Section -->
+        <section id="about" data-aos="fade-up">
+            <h2>About Me</h2>
+            <div style="display: grid; grid-template-columns: 180px 1fr; gap: 20px;">
+                <div style="width: 180px; height: 180px; border: 4px solid #f39c12; border-radius: 10px; overflow: hidden;">
+                    <img src="profile.jpg" alt="Chandra Sekhar Singuru" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="content">
+                    <p>Hello! I'm Chandra Sekhar Singuru, a passionate Cloud Engineer and Software Developer with expertise in Azure, AWS, SAP, and a variety of development tools. Currently, I am pursuing a Master's in Applied Computer Science at Grand Valley State University. With hands-on experience in cloud infrastructure, DevOps, and web development, I have worked with global organizations to streamline cloud operations, optimize costs, and implement cutting-edge solutions.</p>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+
+        <!-- Skills Section -->
+        <section id="skills" data-aos="fade-left">
+            <h2>Technical Skills</h2>
+            <div class="content">
+                <h3>Languages:</h3>
+                <p>Python, Java, SQL, C, HTML5, CSS, Bootstrap, PowerShell, YAML, React</p>
+                <h3>Tools & Technologies:</h3>
+                <p>Git, Docker, AI, ML, Azure, SAP, AWS, DevOps, AKS, Kubernetes, Pipelines, Kafka, Linux</p>
+                <h3>Cloud Technologies:</h3>
+                <p>EC2, S3, Lambda, RDS, API, NSG, Grafana</p>
+                <h3>Networking:</h3>
+                <p>Network Layer, Checkpoint Firewall, Barracuda</p>
+                <h3>Databases:</h3>
+                <p>PostgreSQL, MySQL, Neo4j, MongoDB, Redis Insight</p>
+            </div>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section id="experience" data-aos="fade-right">
+            <h2>Work Experience</h2>
+            <div class="content">
+                <h3>IT Services L1 Support (Part-time)</h3>
+                <p><strong>Grand Valley State University, Michigan, USA</strong> - Sept 2023 – Current</p>
+                <ul>
+                    <li>Optimized GVSU databases using tools like SQL, PostgreSQL, and Azure Data Studio, supporting the migration to Workday.</li>
+                    <li>Resolved technical issues for faculty, students, and alumni, including software, VPN, and login support, while proactively managing IT tickets.</li>
+                </ul>
+
+                <h3>Associate Cloud Engineer</h3>
+                <p><strong>Ernst & Young, India</strong> - Jul 2020 – Aug 2023</p>
+                <ul>
+                    <li>Provisioned and managed over 700+ Azure Virtual Machines, 4000+ Azure Blob Storage instances, configured Network Security Groups (NSGs), Azure AD, Key Vaults, and Application Gateways through automated pipelines in Azure DevOps.</li>
+                    <li>Onboarded 550+ clients onto the SAP Business Technology Platform (BTP), performing advanced cloud operations via SAP Cockpit.</li>
+                    <li>Executed cost optimization strategies, saving 2.5 crores (300,169 USD) using real-time monitoring and optimization techniques.</li>
+                    <li>Configured Layer 3 network switches, gateways, firewalls (Checkpoint, Barracuda), and managed network security using TCP/IP, VLAN.</li>
+                </ul>
+
+                <h3>AWS Cloud Intern</h3>
+                <p><strong>Cognizant, India</strong> - Jan 2021 – Apr 2021</p>
+                <ul>
+                    <li>Designed and implemented cloud-based solutions for client applications, enhancing performance and reducing latency through efficient resource allocation.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" data-aos="fade-up">
+            <h2>Projects</h2>
+            <div class="content">
+                <ul>
+                    <li>
+                        <h4>Personal Portfolio Website</h4>
+                        <p>Developed a responsive portfolio website using HTML, CSS, and JavaScript to showcase my projects and skills.</p>
+                    </li>
+                    <li>
+                        <h4>Cloud Cost Management Tool</h4>
+                        <p>Created a tool that analyzes cloud usage and provides recommendations for cost savings using Azure and AWS APIs.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" data-aos="fade-left">
+            <h2>Certifications</h2>
+            <div class="content">
+                <ul>
+                    <li>AWS Certified Solutions Architect</li>
+                    <li>Microsoft Certified: Azure Fundamentals</li>
+                    <li>Java SE 8 Programmer</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Chandra Sekhar Singuru</p>
+        <div class="icons">
+            <a href="https://github.com/Chandra953"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/chandra953/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/chandra_sekhar_singuru/?hl=en"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
